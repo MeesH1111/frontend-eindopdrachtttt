@@ -1,0 +1,469 @@
+h1 {
+    font-family: Arial;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+h2 {
+    font-family: Arial;
+}
+
+p {
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    z-index: 10;
+    background-color: #FDEFEF;
+}
+
+.navlogo {
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+    font-family: Arial;
+    color: black;
+    text-decoration: none;
+}
+
+.navlinks {
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+
+.sublink {
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+    font-family: Arial;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: darkgray;
+    text-decoration: underline;
+    transition: all 0.15s ease;
+}
+
+.sublink:hover {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/vakantie.jpg);
+    height: 460px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 1px solid black;
+}
+
+.headlinep {
+    color: whitesmoke;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.headerlink {
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+    font-family: Arial;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.headerlink:hover {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: underline;
+    transition: all 0.15s ease;
+}
+
+.headerlinkpad {
+    padding-right: 10px;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px 10px;
+}
+
+.subheader h1 {
+    color: black;
+    text-shadow: none;
+}
+
+.imageinfo {
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 275px;
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, .12);
+}
+
+.imageinfo:hover {
+    transform: scale(102%);
+    transition: all 0.3s ease;
+}
+
+
+.beschrijving {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.prijs {
+    display: flex;
+    flex-direction: column;
+}
+
+.formform {
+    display: flex;
+    justify-content: center;
+    background-color: #F4DFD0;
+    padding-bottom: 30px;
+}
+
+.form {
+    padding-bottom: 40px;
+    background-color: #F4DFD0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+input {
+    padding: 7px;
+    border-radius: 5px;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+select {
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+select:valid {
+    border: 2px solid green;
+}
+
+textarea {
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+textarea:valid {
+    border: 2px solid green;
+}
+
+.naam {
+    font-family: Arial;
+    flex: 0;
+}
+
+.voornaam,
+.achternaam {
+    max-width: 80%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+.gegevens {
+    flex-direction: row;
+    font-family: Arial;
+    justify-content: space-between;
+}
+
+.woonplaats {
+    max-width: 80%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.geboortedatum {
+    max-width: 80%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+.gegeven {
+    max-width: 80%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.checkbox {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.nieuwsbrief {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.submitbutton {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    width: 80%;
+    font-size: 20px;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 1px black;
+}
+
+button:hover {
+    box-shadow: 3px 3px 3px black;
+    transition: all 0.1s ease;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.footerinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 35px;
+    padding-left: 50px;
+    background-color: #FDEFEF;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    padding-right: 20px;
+}
+
+.privacybeleid {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.privacy {
+    padding: 10px 0;
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+}
+
+.privacy:hover {
+    text-decoration: underline;
+    color: gray;
+    transition: all 0.15s ease;
+}
+
+@media (min-width: 480px) {
+    .links {
+        flex-direction: row;
+    }
+
+    .navlogo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imageinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .naam {
+        padding-left: 105px;
+        padding-right: 105px;
+        display: flex;
+        flex-direction: row;
+        font-family: Arial;
+        justify-content: space-between;
+        flex: 0;
+    }
+
+
+    .voornaam,
+    .achternaam,
+    .geboortedatum,
+    .woonplaats {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        max-width: 48%;
+    }
+
+    .geboortedatum {
+        max-height: 51px;
+    }
+
+    .gegevens {
+        display: flex;
+        flex-direction: row;
+        padding-left: 105px;
+        padding-right: 105px;
+        font-family: Arial;
+        justify-content: space-between;
+        flex: 1;
+    }
+
+    .gegeven {
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        padding: 10px 10px;
+        margin: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-family: Arial;
+    }
+
+    .geboortedatum {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .checkbox {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin: 10px;
+    }
+
+    .nieuwsbrief {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin: 10px;
+    }
+
+    .submitbutton {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .footerinfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .privacy {
+        padding: 10px;
+        text-decoration: none;
+        font-family: Arial;
+        color: black;
+        align-self: center;
+    }
+
+    .privacybeleid {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: flex-end;
+    }
+
+}
